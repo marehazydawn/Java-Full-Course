@@ -1,39 +1,27 @@
-# Variable = A container for a value (String, integer, float, boolean)
-#            A variable behaves as if it was the value it contains
+# Typecasting = process of converting a variable from one datas type to another
+#               str(), int(), float(), bool()
 
-# Strings
-first_name = "Sis"
-food = "pizza"
-email = "some@email.com"
-
-# Integers
+name = "Dawn"
 age = 29
-quantity = 3
-num_of_strudents = 30
-
-# Floats
-price = 10.99
-GPA = 3.2
-distance = 5.5
-
-# Booleans
+gpa = 3.2
 is_student = True
-for_sale = True
-is_online = True    
 
-print (f"Are you a student?: {is_student}")
+# print(type(name))
 
-if is_student:
-    print ("You are a student")
-else:
-    print ("You are NOT a student")
+# gpa = int(gpa)
+# print(gpa)
 
-if for_sale:
-    print("That item is for sale")
-else:
-    print("That item is NOT available")
+# age = float(age)
+# print(age)
 
-if is_online:
-    print("You are online")
-else:
-    print("You are offline")
+# age = str(age)
+# print(age)
+
+# print(type(age))
+
+# age += "1"
+
+# print(age)
+
+name = bool(name)
+print(name)
