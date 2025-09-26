@@ -1,16 +1,21 @@
 # Variable = A container for a value (String, integer, float, boolean)
 #            A variable behaves as if it was the value it contains
 
-# string
+# Strings
 first_name = "Sis"
 food = "pizza"
 email = "some@email.com"
 
-#Integers
+# Integers
 age = 29
 quantity = 3
 num_of_strudents = 30
 
-print(f"you are {age} years old")
-print(f"You are buying {quantity} items")
-print(f"Your class has {num_of_strudents} students")
+# Floats
+price = 10.99
+GPA = 3.2
+distance = 5.5
+
+print(f"The price is ${price}")
+print(f"Your GPA is: {GPA}")
+print(f"You ran {distance}km")
