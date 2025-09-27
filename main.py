@@ -1,11 +1,9 @@
 import math
 
-x = 9
+radius = float(input('enter the radius of a circle: '))
 
-# print(math.pi)
-# print(math.e)
-# result = math.sqrt(x)
-# result = math.ceil(x)
-result = math.floor(x)
+# circumference = 2 * math.pi * radius
+# print(f"The circumference is: {round(circumference, 2)} cm")
 
-print(result)
+area = math.pi * pow(radius, 2)
+print(f"The area of the circle is: {round(area, 2)}cm^2")
