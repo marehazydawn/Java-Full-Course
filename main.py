@@ -1,9 +1,9 @@
 # if = Do some code only IF some condition is True
 #      Else do something else
 
-response = input ("Would you like food? (Y/N): ")
+name = input("enter your name: ")
 
-if response == "Y":
-    print("Have some food!")
+if name == "":
+    print("You did not type in your name!")
 else:
-    print("No food for you!")
+    print(f"Hello {name}")
